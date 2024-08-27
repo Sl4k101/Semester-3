@@ -22,7 +22,7 @@ public class Researcher extends Employee {
     public String getPublication() {
         return publication;
     }
-
+//hh
     public String toString() {
         return "{Name: " + getName() + " Age: " + getAge() + " Salary: " + getSalary() + " Field: " + field + " Publication: " + publication + "}";
     }
