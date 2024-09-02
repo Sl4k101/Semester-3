@@ -1,4 +1,5 @@
 package Lab1;
+
 /**
  * Matthew Cheung 2331037
  */
@@ -22,7 +23,8 @@ public class Researcher extends Employee {
     public String getPublication() {
         return publication;
     }
-//hh
+
+    //hh
     public String toString() {
         return "{Name: " + getName() + " Age: " + getAge() + " Salary: " + getSalary() + " Field: " + field + " Publication: " + publication + "}";
     }
